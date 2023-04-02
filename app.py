@@ -5,6 +5,7 @@ import plotly.express as px
 csv = r"countries_gdp.csv"
 
 st.header("Ahoj, vítej ve Streamlitu")
+st.markdown("""---""")
 st.markdown("**Python**")
 
 df = pd.read_csv(csv)
